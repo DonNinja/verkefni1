@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+}
+body {
+	margin: 0 auto;
+	max-width: 60em;
+	background:  #202020;
+	color: white;
+	font-family: 'Droid Serif', serif;
+}
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+}
+header {
+	margin: 5px;
+	border: 3px dashed red;
+}
+audio {
+
+}
+.haus {
+	background: #660000;
+}
+/*.foregrund {
+	background-color: black;
+} */
+a {
+	color: red;
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color: lightgreen;
+}
+a:active {
+	color: yellow;
+}
+/*Fyrir nafnið mitt, menntun og aldur*/
+.nfn {
+	font-size: 2em;
+	text-align: center;
+	/*padding-top: 1em*/
+}
+.oof {
+	margin: .5em;
+	text-align: center;
+	font-size: 2em;
+}
+.meh {
+	padding-top: 7.5em;
+	font-size: 1.5em;
+	width: 50%;
+	float: left;
+	padding-right: 1.5em;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.burdr {
+	border: 3px lightgreen solid;
+	padding: 5px;
+}
+/*Áhugamál*/
+.ahugi {
+	border: 3px lightgreen solid;
+	width: 50%;
+	float: left;
+}
+.tolva {
+	margin: .5em;
+	text-align: center;
+	font-size: 2em;
+}
+.hem {
+	padding: 1em;
+	font-size: 1.5em;
+}
+.nfn2 {
+	font-size: 2em;
+	text-align: center;
+}
+/*Verkefnasíða*/
+.heme {
+	font-size: 1.25em;
+}
+.col-1-3,
+.col-1-3no2 {
+	float: left;
+  	padding-left: 15px;
+  	padding-right: 15px;
+}
+.col-1-3no2,
+.col-1-3  {
+  	display: inline-block;
+  	vertical-align: top;
+}
+.col-1-3no2 {
+  	width: 50%;
+}
+.col-1-3 {
+	width: 50%
+}
+td {
+	border: 1px lightgreen solid;
+}
+.logo {
+	float: left;
+}
